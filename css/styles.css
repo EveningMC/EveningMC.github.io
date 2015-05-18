@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bold {
+	font-weight: bold;
+}
+
+body {
+	background-color: #444;
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.fade-in {
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+.fade-in-hover:hover {
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+.fade-out {
+    -webkit-animation: fadeout 2s;
+    -moz-animation: fadeout 2s;
+    -o-animation: fadeout 2s;
+    -ms-animation: fadeout 2s;
+    animation: fadeout 2s;
+}
+
+.fade-out-color:hover {
+    -webkit-animation: fadeout 2s;
+    -moz-animation: fadeout 2s;
+    -o-animation: fadeout 2s;
+    -ms-animation: fadeout 2s;
+    animation: fadeout 2s;
+}
+
+/* Fade In */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 100; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 100; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 100; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 100; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 100; }
+}
+
+/* Fade Out */
+@keyframes fadeout {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-moz-keyframes fadeout {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-webkit-keyframes fadeout {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-ms-keyframes fadeout {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-o-keyframes fadeout {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+
+/* Fade Out Color */
+@keyframes fadeout-color {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-moz-keyframes fadeout-color {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-webkit-keyframes fadeout-color {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-ms-keyframes fadeout-color {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+@-o-keyframes fadeout-color {
+    from { opacity: 100; }
+    to   { opacity: 0; }
+}
+
+.scrollup {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 66px;
+	right: 15px;
+	display: none;
+	text-indent: -9999px;
+	background-color: #CC3333;
+	background-position: center;
+	background-image: url('../img/arrow-up.png');
+	background-repeat: no-repeat;
+	border-radius: 500%;
+}
+
+.scrollup:hover {
+	background-color: #a33;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 40px;
+    height: 40px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 12px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-facebook:hover {
+    color: #4060A5;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-twitter:hover {
+    color: #00ABE3;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-google-plus:hover {
+    background: #e64522;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-github:hover {
+    background: #343434;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-pinterest:hover {
+    background: #cb2027;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-linkedin:hover {
+    background: #0094BC;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-flickr:hover {
+    background: #FF57AE;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-instagram:hover {
+    background: #375989;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-vimeo-square:hover {
+    background: #83DAEB;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-stack-overflow:hover {
+    background: #FEA501;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-dropbox:hover {
+    background: #017FE5;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-tumblr:hover {
+    background: #3a5876;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-dribbble:hover {
+    background: #F46899;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-skype:hover {
+    background: #00C6FF;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-stack-exchange:hover {
+    background: #4D86C9;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-youtube:hover {
+    color: #FF1F25;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-xing:hover {
+    background: #005C5E;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-rss:hover {
+    background: #e88845;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-foursquare:hover {
+    background: #09B9E0;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-youtube-play:hover {
+    color: #DF192A;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.fa-twitch:hover {
+	color: #63C;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.navbar-text > a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.fa-space {
+	padding-left: 3px;
+}
+
+.article {
+	background-color: #333333;
+	color: #111;
+	padding: 10px 5px;
+	border-radius: 5px;
+}
+
+.text-black {
+	color: #111;
+}
+
+.text-white {
+	color: #eee;
+}
+
+.background-dark {
+	background-color: #555;
+}
+
+.hr-line {
+	width: 80%;
+	height: 2px;
+	background: #aaa;
+}.faded {
+	  background: linear-gradient(to bottom,rgba(1,1,1,1) 0,rgba(0,0,0,0) 100%);
+	  border: none;
+}
+
+.faded-inverted {
+	  background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(1,1,1,1) 100%);
+	  border: none;
+}
+
+.item-active {
+	background: linear-gradient(to bottom,rgba(100,51,100,1.0) 0,rgba(0,0,0,0) 100%);
+}
+
+.no-background {
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0) 0);
+	border: none;
+}
